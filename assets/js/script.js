@@ -42,6 +42,6 @@ var generatePassword = function() {
       alert("Password must be less than 128 letters/characters");
     }
     else {
-      alert("I don't know what you did wrong, and I don't think I really care at this point 😁")
+      alert("Something went wrong please try again using the correct promps provided")
     }
   }
