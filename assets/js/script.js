@@ -45,3 +45,52 @@ var generatePassword = function() {
       alert("Something went wrong please try again using the correct promps provided")
     }
   }
+
+  // add pools to mainCharacterPool based on user input
+  if (askLowercase) {
+    mainCharacterPool += lowercasePool;
+  }
+  if (askUppercase) {
+    mainCharacterPool += uppercasePool;
+  }
+  if (askNumbers) {
+    mainCharacterPool += numberPool;
+  }
+  if (askSpecialChars) {
+    mainCharacterPool += specialCharPool;
+  }
+
+
+  
+  // randomly pull characters from mainCharacterPool
+  for (var i = 0; i < askNumCharacters; i++) {
+    password += mainCharacterPool[Math.floor(Math.random() * mainCharacterPool.length)];
+  }
+  return password;
+
+
+}; // end of function
+
+
+
+
+// Get references to the #generate element
+var generateBtn = document.querySelector("#generate");
+
+
+
+
+// Write password to the #password input
+function writePassword() {
+  var password = generatePassword();
+  var passwordText = document.querySelector("#password");
+
+  passwordText.value = password;
+
+};
+
+
+
+
+// Add event listener to generate button
+generateBtn.addEventListener("click", writePassword);
