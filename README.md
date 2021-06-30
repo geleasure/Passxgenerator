@@ -9,9 +9,9 @@ A secure password generator to create a strong and safe password for you
 * JavaScript
 
 ## Website
-[Passxgenerator](site link)
+[Passxgenerator](git@github.com:geleasure/Passxgenerator.git)
 
 ## Contribution
 Made with 🙏 by Grant
 
-![Passxgenerator Sit](./mypicsoon.png)
+![Passxgenerator Sit](./passx-site.png)
