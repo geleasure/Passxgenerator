@@ -9,7 +9,7 @@ A secure password generator to create a strong and safe password for you
 * JavaScript
 
 ## Website
-[Passxgenerator](git@github.com:geleasure/Passxgenerator.git)
+[Passxgenerator](https://geleasure.github.io/Passxgenerator/)
 
 ## Contribution
 Made with 🙏 by Grant
